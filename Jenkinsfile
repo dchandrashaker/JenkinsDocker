@@ -1,4 +1,4 @@
-chmod +x start.sh
+
 pipeline {
     agent { dockerfile true }
     stages {
