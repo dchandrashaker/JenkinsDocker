@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage (Build) {
             steps {
-                docker build -t my_image .
+                docker build -t dchandrashaker/my_image .
                 }
         }
     }
