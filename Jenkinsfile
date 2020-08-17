@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage (Build) {
             steps {
-                docker build -t Alpine_GIT_image .
+                docker build -t my_image .
                 }
         }
     }
